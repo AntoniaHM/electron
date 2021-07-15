@@ -1,7 +1,7 @@
 import * as ActionTypes from './ActionTypes.js';
 
 export default (state = {value :[{pv: 0}]}, action) => {
-  const {caption, value} = action;
+  const { value} = action;
 
   switch (action.type) {
     case ActionTypes.REFRESHDATA:
